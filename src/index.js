@@ -6,20 +6,20 @@ import HiraganaPage from './HiraganaPage';
 import KatakanaPage from './KatakanaPage';
 import HomePage from './HomePage';
 import NavBar from './NavBar';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import "./styles.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
     <NavBar/>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/hiragana-katakana-app" element={<HomePage/>}/>
         <Route path="/hiragana-katakana-app/hiragana" element={<HiraganaPage/>}/>
         <Route path="/hiragana-katakana-app/katakana" element={<KatakanaPage/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
 );
 

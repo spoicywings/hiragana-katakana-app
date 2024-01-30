@@ -1,0 +1,89 @@
+.nav {
+    background-color: #333;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding: 0 1rem;
+    align-items: stretch;
+    height: 8vh;
+}
+
+.site-title {
+    font-size: 2.5rem;
+}
+
+.nav ul {
+    padding: 0rem;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    
+}
+
+.nav a {
+    color:inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25 rem;
+    font-size: 2rem;
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+.main-page {
+    margin: 0;
+    padding: 0;
+    height: 92vh;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page h1 {
+    margin: 0;
+}
+
+.hiragana-page {
+    margin: 0;
+    padding: 0;
+    height: 92vh;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    padding-bottom: 0;
+}
+
+.streak {
+    font-size: 2rem;
+}
+
+.character {
+    font-size: 2rem;
+}
+
+.inputText {
+    height: 2rem;
+}
+
+.errorMessage {
+    font-size: 2rem;
+}

@@ -13,11 +13,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
     <NavBar/>
-    <HashRouter>
+    <HashRouter basename='/hiragana-katakana-app'>
       <Routes>
-        <Route path="/hiragana-katakana-app" element={<HomePage/>}/>
-        <Route path="/hiragana-katakana-app/hiragana" element={<HiraganaPage/>}/>
-        <Route path="/hiragana-katakana-app/katakana" element={<KatakanaPage/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/hiragana" element={<HiraganaPage/>}/>
+        <Route path="/katakana" element={<KatakanaPage/>}/>
       </Routes>
     </HashRouter>
     </div>

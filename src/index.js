@@ -15,9 +15,9 @@ root.render(
     <NavBar/>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/hiragana" element={<HiraganaPage/>}/>
-        <Route path="/katakana" element={<KatakanaPage/>}/>
+        <Route path="/hiragana-katakana-app" element={<HomePage/>}/>
+        <Route path="/hiragana-katakana-app/hiragana" element={<HiraganaPage/>}/>
+        <Route path="/hiragana-katakana-app/katakana" element={<KatakanaPage/>}/>
       </Routes>
     </BrowserRouter>
     </div>
